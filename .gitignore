@@ -1,7 +1,62 @@
-# Ignore Java bytecode
+########################
+# Java
+########################
 *.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+*.log
 
-# Ignore compiled files
-out/
-bin/
+# Maven
 target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java Annotation Processing
+.apt_generated/
+
+########################
+# Eclipse
+########################
+*.pydevproject
+.project
+.classpath
+.cproject
+.settings/
+.loadpath
+
+# Eclipse Launch Configs
+*.launch
+
+# Local Eclipse history
+.metadata/
+bin/
+tmp/
+tmp*/ 
+local.properties
+
+########################
+# OS Specific
+########################
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+########################
+# Others
+########################
+*.iml
+.idea/
