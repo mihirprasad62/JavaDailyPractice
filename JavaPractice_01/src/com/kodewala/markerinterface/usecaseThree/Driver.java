@@ -6,7 +6,7 @@ public class Driver {
 		PremiumCustomer user1 =new PremiumCustomer();
 		RegularCustomer user2 =new RegularCustomer();
 		
-		if(user1 instanceof IFreeDeliveryApplicable) {
+		if(user2 instanceof IFreeDeliveryApplicable) {
 			System.out.println("You are applicable for free delivery");
 		}else {
 			System.out.println("Upgrade to premium to get free delivery.");
